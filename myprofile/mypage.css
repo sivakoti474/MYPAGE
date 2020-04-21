@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap');
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+*{
+    padding:0;
+    margin: 0;
+}        
+nav ul{
+    display:flex;
+    list-style:none;
+    justify-content:space-between;
+    padding:5px;
+    align-items:center;
+}
+nav ul li{
+    margin:0px 10px;
+}
+
+.link{
+    text-decoration:none;
+    color:black;
+    font-weight:550;
+    font-size:15px;
+}
+.name{
+    font-size:25px;
+    font-weight: 900;
+    color: orangered;
+}
+a:hover{
+    cursor:pointer;
+    color:orangered;
+}
+.link-button{
+    background:orangered;
+    color:white;
+    padding:5px;
+    border-radius: 5%;
+    
+    text-decoration:none;
+}
+.link-button:hover{
+    color:white;
+}
+header{
+    background:black;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    height:350px;
+}
+#bio{
+    display:flex;
+   flex-direction:row;
+   margin-bottom:50px;
+   padding:5px;
+}
+#bio img{
+    height:200px;
+    width:200px;
+    border-radius:100%;
+margin:100px;
+}
+
+.break{
+    display:block;
+}
+#bio article *{
+margin:30px 0px;
+}
+#portfolio{
+    background:black;
+    color:white;
+    height:400px;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items:center;
+    padding-top:3%;
+   
+}
+#portfolio h3,p,hr{
+    margin:5px;
+}
+#portfolio div{
+    display:flex;
+    justify-content:space-around;
+    flex-direction: row;
+    margin:40px 0;
+    width:100%;
+}
+#portfolio article{
+    color:black;
+    background:white;
+    height:200px;
+    width:250px;
+    border-radius:5%;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    text-align:center;
+    font-size:15px;
+  font-weight:700;
+  padding:5px;
+}
+ h4{
+    font-weight:900;
+    font-size:18px;
+ 
+}
+
+progress{
+    height:10px;
+    width:350px;
+    -webkit-appearance: none;
+   
+}
+::-webkit-progress-value{
+    background:orangered;
+
+}
+footer{
+    background:black;
+    color:white;
+    height:350px;
+}
+form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+form input{
+    margin:20px;
+    width:400px;
+    line-height: 2em;
+    border-radius: 5px;
+    border-color:black;
+
+}
+button{
+    margin-top:10px;
+}
+#contact{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    flex-direction: column;
+    padding:5px;
+    margin-top:30px;
+}
+#skillsc{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width:100%;
+    margin-top:30px;
+    }
+#skillsc h4{
+    
+    
+   
+   text-align: center;
+    
+}
+
+#skills{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    padding:5px;
+    align-items:center;
+    margin-top:20px;
+}
+
+
+#skills ul li{
+    list-style:none;
+    margin-bottom:5px;
+}
